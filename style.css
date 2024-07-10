@@ -6,10 +6,8 @@ html {
 	scroll-behavior: smooth;
 }
 .image {
-	background: url("./Slike/f1.jpg");
 	height: 100vh;
 	width: 100%;
-	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -17,7 +15,7 @@ html {
 	color: white;
 	justify-content: center;
 	text-shadow: -1px 3px 5px rgba(0, 0, 0, 0.84);
-	background-attachment: fixed;
+	background: url("./Slike/f1.jpg") no-repeat fixed;
 }
 .div {
 	display: flex;
